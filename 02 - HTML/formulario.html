@@ -1,0 +1,95 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/jpg" href="assets/img/favicon.png">
+    <title>Pastelería OrionCake</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <img src="assets/img/logo.png" class="img-fluid logo-image" alt="OrionCake" width="200" height="200">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Hacer Pedido</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h1>Hacer Pedido</h1>
+            <hr>
+        </section>
+        <section>
+            <form action="index.html">
+                <div class="row">
+                    <div class="col">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+                    <div class="col">
+                        <label for="telefono">Teléfono</label>
+                        <input type="number" name="telefono" id="telefono">
+                    </div>
+                    <div class="col">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="mensaje">Mensaje (en el pastel)</label>
+                        <textarea name="mensaje" id="mensje" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="pastel">Pastel</label>
+                        <select name="pastel" id="pastel">
+                            <option value="">Selecciona un Pastel</option>
+                            <option value="Pastel de Chocolate">Pastel de Chocolate</option>
+                            <option value="Pastel Imposible">Pastel Imposible</option>
+                            <option value="Pastel 3 Leches">Pastel 3 Leches</option>
+                            <option value="Pastel Zarzamora">Pastel Zarzamora</option>
+                            <option value="Pastel Cookies & Cream">Pastel Cookies & Cream</option>
+                            <option value="Pastel Selva Negra">Pastel Selva Negra</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="sabor">Sabores</label>
+                        <select name="sabor" id="sabor">
+                            <option value="">Selecciona un Sabor</option>
+                            <option value="Chocolate">Chocolate</option>
+                            <option value="Vainilla">Vainilla</option>
+                            <option value="Naranja">Naranja</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="adorno">Adorno</label>
+                        <select name="adorno" id="adorno">
+                            <option value="">Selecciona un Adorno</option>
+                            <option value="Feliz Cumpleaños">Feliz Cumpleaños</option>
+                            <option value="Velas Numéricas">Velas Numéricas</option>
+                            <option value="Naranja">Naranja</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" onclick="javascript: window.location = 'index.html';">Cancelar</button>
+                    </div>
+                    <div class="col">
+                        <button type="submit" id="send">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
