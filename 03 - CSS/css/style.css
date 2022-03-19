@@ -1,0 +1,201 @@
+h1 {
+    font-size: 4.5em;
+}
+
+h2 {
+    font-size: 3.5em;
+}
+
+hr {
+    opacity: 0.1;
+}
+
+.nav-item {
+    margin-left: 2%;
+    margin-right: 5%;
+}
+
+.nav-item a.btn {
+    white-space: nowrap;
+}
+
+.triangle::before {
+    content: 'no funciona si no pongo algo';
+    color: grey;
+    background-color: grey;
+    clip-path: polygon(30% 0, 0 0, 16% 100%);
+    font-size: 2em;
+    position: absolute;
+    left: 0;
+    opacity: 0.1;
+}
+
+.triangle::after {
+    content: 'no funciona si no pongo algo';
+    color: grey;
+    background-color: grey;
+    clip-path: polygon(30% 0, 0 0, 16% 100%);
+    font-size: 2em;
+    position: absolute;
+    left: 36%;
+    top: 58%;
+    transform: translate(-1%, 50%) rotate(90deg);
+    opacity: 0.1;
+}
+
+.triangle-section-right::before {
+    content: 'no funciona si no pongo algo';
+    color: grey;
+    background-color: grey;
+    clip-path: polygon(100% 100%, 100% 0%, 60% 100%);
+    font-size: 2em;
+    position: absolute;
+    left: 80%;
+    top: 98%;
+    transform: translate(0%, 105%);
+    opacity: 0.1;
+}
+
+.triangle-section-right::after {
+    content: 'no funciona si no pongo algo';
+    color: grey;
+    background-color: grey;
+    clip-path: polygon(100% 100%, 100% 0%, 60% 100%);
+    font-size: 2em;
+    position: absolute;
+    left: 80%;
+    top: 110%;
+    opacity: 0.1;
+    transform: scaleY(-1) translate(0%, -118%);
+}
+
+.triangle-section-left::before {
+    content: 'no funciona si no pongo algo';
+    color: grey;
+    background-color: grey;
+    clip-path: polygon(100% 100%, 100% 0%, 60% 100%);
+    font-size: 2em;
+    position: absolute;
+    left: 0;
+    top: 171%;
+    opacity: 0.1;
+    transform: scaleX(-1) translate(0%, 350%);
+}
+
+.triangle-section-left::after {
+    content: 'no funciona si no pongo algo';
+    color: grey;
+    background-color: grey;
+    clip-path: polygon(100% 100%, 100% 0%, 60% 100%);
+    font-size: 2em;
+    position: absolute;
+    left: 0;
+    top: 177%;
+    opacity: 0.1;
+    transform: scale(-1, -1) translate(0%, -372%);
+}
+
+.triangle-section-right2::before {
+    content: 'no funciona si no pongo algo';
+    color: grey;
+    background-color: grey;
+    clip-path: polygon(100% 100%, 100% 0%, 60% 100%);
+    font-size: 2em;
+    position: absolute;
+    left: 80%;
+    top: 277%;
+    transform: translate(0%, 268%);
+    opacity: 0.1;
+}
+
+.triangle-section-right2::after {
+    content: 'no funciona si no pongo algo';
+    color: grey;
+    background-color: grey;
+    clip-path: polygon(100% 100%, 100% 0%, 60% 100%);
+    font-size: 2em;
+    position: absolute;
+    left: 80%;
+    top: 289%;
+    opacity: 0.1;
+    transform: scaleY(-1) translate(0%, -282%);
+}
+
+.text-dark-blue {
+    color: #1f3e72;
+}
+
+.bg-dark-blue {
+    background-color: #1f3e72;
+}
+
+.icon-gold {
+    color: gold;
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+.icon-blue {
+    color: #3858d6;
+    font-size: 20px;
+}
+
+.form-float {
+    position: absolute;
+    transform: translate(22%, -10%);
+}
+
+.card-benefits {
+    width: 18rem;
+    height: 18rem;
+}
+
+.card-contact {
+    width: 16.5rem;
+    height: 11rem;
+}
+
+.btn-violet {
+    background-color: #f1f5ff;
+    color: #4461d5;
+    transition-duration: 0.4s;
+}
+
+.btn-violet:hover {
+    background-color: #3757d5;
+    color: white;
+    box-shadow: 0 1px 10px black;
+}
+
+.btn-primary {
+    background-color: #3757d5;
+    color: white!important;
+    transition-duration: 0.4s;
+}
+
+.btn-primary:hover {
+    background-color: #f1f5ff;
+    color: #4461d5!important;
+}
+
+footer {
+    min-height: 300px;
+    background-color: #eef3ff;
+}
+
+footer::before {
+    content: 'no funciona si no pongo algo';
+    color: grey;
+    background-color: grey;
+    clip-path: polygon(25% 0%, 0% 100%, 50% 100%);
+    font-size: 2em;
+    position: absolute;
+    left: 0;
+    opacity: 0.13;
+    transform: translate(260%, 523%);
+}
+
+.list-group-item {
+    background-color: #eef3ff;
+    border: none;
+}
