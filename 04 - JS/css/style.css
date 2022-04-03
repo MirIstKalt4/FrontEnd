@@ -1,0 +1,51 @@
+body {
+    background-color: #000;
+}
+
+.screen {
+    background-color: #A1A1A1;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+#description {
+    /*background-color: #000;*/
+    color: white;
+    text-shadow: 2px 2px grey;
+    text-align: justify;
+    margin: 0;
+}
+
+#search,
+#increase,
+#decrease {
+    cursor: pointer;
+}
+
+/*#pokeName {
+    color: #000;
+    background-color: #fff;
+}*/
+
+#pokeName.loading {
+    background-image: url('../assets/img/simple_pokeball.gif');
+    background-size: contain;
+    color: #FFF;
+}
+
+#pokeName[disabled] {
+    cursor: not-allowed;
+}
+
+#results {
+    text-transform: capitalize;
+}
+
+.rounded-circle {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.shadow {
+    box-shadow: 2px 2px 2px black!important;
+}

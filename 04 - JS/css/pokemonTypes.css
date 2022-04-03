@@ -1,0 +1,114 @@
+.sprite {
+    background-image: url('../assets/img/tipos-de-pokemon.png');
+    background-repeat: no-repeat;
+    display: block;
+    min-height: 310px;
+}
+
+.sprite-bug {
+    width: 265px;
+    height: 310px;
+    background-position: 0 0;
+}
+
+.sprite-dark {
+    width: 275px;
+    height: 325px;
+    background-position: -265px 0;
+}
+
+.sprite-dragon {
+    width: 275px;
+    height: 325px;
+    background-position: -530px 0;
+}
+
+.sprite-electric {
+    width: 275px;
+    height: 325px;
+    background-position: -795px 0;
+}
+
+.sprite-fairy {
+    width: 275px;
+    height: 325px;
+    background-position: -1060px 0;
+}
+
+.sprite-fighting {
+    width: 275px;
+    height: 325px;
+    background-position: -1325px 0;
+}
+
+.sprite-fire {
+    width: 275px;
+    height: 325px;
+    background-position: 0 -310px;
+}
+
+.sprite-flying {
+    width: 275px;
+    height: 325px;
+    background-position: -265px -310px;
+}
+
+.sprite-ghost {
+    width: 275px;
+    height: 325px;
+    background-position: -530px -310px;
+}
+
+.sprite-grass {
+    width: 275px;
+    height: 325px;
+    background-position: -795px -310px;
+}
+
+.sprite-ground {
+    width: 275px;
+    height: 325px;
+    background-position: -1060px -310px;
+}
+
+.sprite-ice {
+    width: 275px;
+    height: 325px;
+    background-position: -1325px -310px;
+}
+
+.sprite-normal {
+    width: 275px;
+    height: 325px;
+    background-position: 0 -636px;
+}
+
+.sprite-poison {
+    width: 275px;
+    height: 325px;
+    background-position: -265px -636px;
+}
+
+.sprite-psychic {
+    width: 275px;
+    height: 325px;
+    background-position: -530px -636px;
+}
+
+.sprite-rock {
+    width: 275px;
+    height: 325px;
+    background-position: -795px -636px;
+}
+
+.sprite-steel {
+    width: 275px;
+    height: 325px;
+    background-position: -1060px -636px;
+}
+
+.sprite-water {
+    width: 275px;
+    height: 325px;
+    background-position: -1325px -636px;
+}

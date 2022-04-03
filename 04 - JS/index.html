@@ -1,0 +1,84 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pokemonTypes.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <main>
+        <div class="container my-2">
+            <div class="row">
+                <div class="col-sm-12 border border-dark border-3 rounded bg-danger px-sm-4 py-sm-3">
+                    <div class="row">
+                        <div class="col-sm-12 border border-dark border-3 rounded p-sm-5">
+                            <div class="row">
+                                <div class="col-sm-6 border border-dark border-3 rounded px-5 py-3">
+                                    <div class="row">
+                                        <div class="col-sm-12 screen text-center">
+                                            <img src="assets/img/initial.png" alt="Pokedex" class="img-fluid" id="img-pokemon">
+                                            <div id="description" class="pb-2"></div>
+                                        </div>
+                                    </div>
+                                    <div class="row py-3">
+                                        <div id="search" class="col-sm-2 text-center bg-primary rounded-circle ps-md-3 pe-3 pt-1 ms-md-5 shadow">Search</div>
+                                        <div id="increase" class="col-sm-3 offset-sm-2 screen fs-5 fw-bold text-center shadow">&#x21E7;</div>
+                                        <div id="decrease" class="col-sm-3 screen fs-5 fw-bold text-center shadow ms-md-4">&#x21E9;</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="form-floating mb-3">
+                                                <input type="text" name="pokeName" id="pokeName" class="form-control" placeholder="Ingresa Nombre o # de Pokémon" data-id="0">
+                                                <label for="pokeName">Ingresa Nombre o # de Pokémon:</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 d-none" id="results">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <b>Nombre: </b>
+                                            <span id="resName" class="badge rounded-pill bg-dark"></span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <b>Tipo Pokemon: </b>
+                                            <span id="resType" class="badge rounded-pill bg-dark"></span>
+                                        </div>
+                                        <div class="row" id="sprites-container"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <b>Estadísticas: </b>
+                                            <div class="row" id="resEstats"></div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <b>Movimientos: </b>
+                                            <div class="row">
+                                                <div class="col-sm-12 screen fw-bold text-center shadow my-2" id="resMovement1"></div>
+                                                <div class="col-sm-12 screen fw-bold text-center shadow my-2" id="resMovement2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
